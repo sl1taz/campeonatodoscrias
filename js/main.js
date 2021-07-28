@@ -336,7 +336,7 @@
     // Rs Coutndown
     var countdown_first = $('#countdown');
     if(countdown_first.length){
-        var countDownDate = new Date("Jul 24 2021, 08:00:00").getTime();
+        var countDownDate = new Date("Jul 31 2021, 08:00:00").getTime();
 
             // Update the count down every 1 second
             var x = setInterval(function() {
@@ -360,7 +360,7 @@
             // If the count down is over, write some text 
             if (distance < 0) {
                 clearInterval(x);
-                document.getElementById("countdown").innerHTML = "Game End Already";
+                document.getElementById("countdown").innerHTML = "Jogo Finalizado!";
             }
         });
     }
